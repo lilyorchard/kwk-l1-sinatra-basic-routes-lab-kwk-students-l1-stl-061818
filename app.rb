@@ -2,13 +2,16 @@ require 'sinatra'
 
 class App < Sinatra::Base
   
-  get '/' do
-    "I love Bok Choy"
+  get '/name' do
+    "My name is Lily"
   
 end
   
-  get  '/nutritious' do
-    "Has a lots of fiber"
+  get  '/hometown' do
+    "My hometown is St. Louis"
   end
+  
+  get '/favorite-song' do
+    "My favorite song is 'The Way You Look Tonight'"
   
 end
